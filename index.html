@@ -24,7 +24,7 @@
 		</div>
 		<div>
 			<label for="website">Your Website</label>
-			<input type="url" id="website">
+			<input type="url" id="website" required value="http://">
 		</div>
 		<div>
 			<label for="quantity">Quantity</label>
@@ -35,9 +35,85 @@
 			<input type="date" id="date">
 		</div>
 
+		<div>
+			<label for="country">Your Country</label>
+			<select name="country" id="country">
+			<option value="">Please select...</option>
+				<optgroup label="Oceania">
+				<option value="nz">New Zealand</option>
+				<option value="au">Australia</option>
+			</optgroup>
+				<optgroup label="Asia">
+				<option value="sk">South Korea</option>
+				<option value="id">India</option>
+			</optgroup>
+				<option value="usa">United States of America</option>
+		</div>
+
+		<div>
+			<input type="radio" id="male" name="gender">
+			<label for="male">Male</label>
+		</div>
+
+		<div>
+			<input type="radio" id="female" name="gender">
+			<label for="female">Female</label>
+		</div>
+
+		<div>
+			<input type="radio" id="other" name="gender">
+			<label for="other">Other</label>
+		</div>
+
+		<div>
+			<input type="checkbox" id="remember" checked>
+			<label for="remember">Remember login</label>
+		</div>
+
+		<div>
+			<label for="post">Blog Post</label>
+			<textarea name="" id="post" cols="30" rows="10"></textarea>
+		</div>
+
+		<div>
+			<label for="search">Search</label>
+			<input type="search"
+		</div>
+
 		<input type="submit">
+
+		<div>
+			<progress max="100"></progress>
+		</div>
 
 	</form>
 
 	</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
